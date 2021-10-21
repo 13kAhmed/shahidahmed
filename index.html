@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="FlareBots" />
+        <meta name="description" content="Shahid Ahmed" />
         <meta name="author" content="@shahid" />
 
-        <title>FlareBots</title>
+        <title>Shahid Ahmed</title>
 
 		<link rel="icon" type="image/ico" href="images/favicon.ico" />
 
@@ -138,6 +138,23 @@
         gtag('js', new Date());
 
         gtag('config', 'G-FGZED0CHJB'); 
+        </script>
+        <script>
+            function pnAvailable() {
+                alert();
+    var bAvailable = false;
+    if (window.isSecureContext) {
+        // running in secure context - check for available Push-API
+        bAvailable = (('serviceWorker' in navigator) && 
+                      ('PushManager' in window) && 
+                      ('Notification' in window)); 
+    } else {
+        console.log('site have to run in secure context!');
+    }
+    return bAvailable;
+}
+pnAvailable();
+
         </script>
     </body>
 </html>
